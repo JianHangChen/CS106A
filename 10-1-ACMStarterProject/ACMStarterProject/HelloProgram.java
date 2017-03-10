@@ -9,11 +9,13 @@
 
 import acm.graphics.*;
 import acm.program.*;
-
+import java.awt.*;
 
 public class HelloProgram extends GraphicsProgram{
 	public void run(){
-		GLabel msg = new GLabel("hello,world", 500,100);
+		GLabel msg = new GLabel("hello,world", 250,200);
+		msg.setFont("Serif-58");//"Helvetica-50");
+		msg.setColor(Color.MAGENTA);
 		add(msg);
 		//add(new GLabel("hello, world",100,100));
 	}
