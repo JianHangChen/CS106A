@@ -5,7 +5,7 @@
  */
 import acm.program.*;
 
-public class Add2Integers extends ConsoleProgram {
+public class Add2Integers extends DialogProgram{//ConsoleProgram {
 	public void run(){
 		println("This program adds two integers.");
 		int n1 = readInt("Enter n1: ");
