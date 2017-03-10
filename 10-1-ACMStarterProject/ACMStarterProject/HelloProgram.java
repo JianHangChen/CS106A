@@ -13,7 +13,9 @@ import acm.program.*;
 
 public class HelloProgram extends GraphicsProgram{
 	public void run(){
-		add(new GLabel("hello, world",100,100));
+		GLabel msg = new GLabel("hello,world", 500,100);
+		add(msg);
+		//add(new GLabel("hello, world",100,100));
 	}
 
 }
