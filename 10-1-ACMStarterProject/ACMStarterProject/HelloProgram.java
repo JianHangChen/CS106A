@@ -11,12 +11,17 @@ import acm.graphics.*;
 import acm.program.*;
 import java.awt.*;
 
+
 public class HelloProgram extends GraphicsProgram{
+	private static final double PI = 3.141592653;
+	
 	public void run(){
-		GLabel msg = new GLabel("hello,world", 250,200);
-		msg.setFont("Serif-58");//"Helvetica-50");
+		
+		GLabel msg = new GLabel("hello,world", 0,100);
+		msg.setFont("Serif-Italic-58");//"Helvetica-50");
 		msg.setColor(Color.MAGENTA);
 		add(msg);
+		
 		//add(new GLabel("hello, world",100,100));
 	}
 
